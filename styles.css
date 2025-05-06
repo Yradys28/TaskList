@@ -1,3 +1,19 @@
 .main{
-    background-image: linear-gradient(to rigth, yellow, blue);
+    background-image: linear-gradient(to right, rgb(20, 24, 100), rgb(42, 42, 159));
+}
+
+.input-button{
+    border:1px solid white;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 450px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: gray;
+    margin-right: 25px;
 }
