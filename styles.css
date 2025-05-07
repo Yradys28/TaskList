@@ -1,19 +1,69 @@
-.main{
-    background-image: linear-gradient(to right, rgb(20, 24, 100), rgb(42, 42, 159));
+html,body{
+    height: 100%;
+    font-family: "DM Sans",sans-serif;
+    font-weight: Weight;
 }
 
-.input-button{
-    border:1px solid white;
-    padding: 20px;
+body{
+    background-image: linear-gradient(to bottom, rgb(5, 10, 29), rgb(19, 32, 88));
+    background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 input{
-    width: 450px;
-    height: 30px;
-    border-radius: 7px;
-    background-color: gray;
-    margin-right: 25px;
+    border:none;
+    outline: none;
+    width: 800px;
+    height: 50px;
+    background-color:rgb(48, 53, 64);
+    color:rgb(255, 255, 255);
+    font-family: "DM Sans",sans-serif;
+    font-weight: Weight;
+    margin:20px 15px 0px 0px;
+    padding-left: 10px;
+    border-radius: 12px;
 }
+
+input::placeholder{
+    color: rgb(210, 210, 210); 
+    
+}
+
+
+.buttonAdd{
+    border:none;
+    outline: none;
+    width: 80px;
+    height: 50px;
+    background-color: rgb(218, 71, 71);
+    font-family: "DM Sans",sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.list-items{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*#newtask{
+    width: 230px;
+    height: 140px;
+    background-color: #2a2d3e;
+    color: white;
+    margin: 5px;
+    list-style: none;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}*/
