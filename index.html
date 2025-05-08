@@ -10,12 +10,25 @@
     <title>Task List Oficial</title>
 </head>
 <body>
-    <div class="search">
-        <input type="text" class="input" id="input" placeholder="Añade una Tarea">
+    <div id="infoPerfil">
+        <div id="fecha"></div>
+        <span>VAMOS A CUMPLIR TUS TAREAS!</span>
+    </div>
+    <div class="addTask">
+        <input type="text" class="input" id="input" placeholder="Agrega una Tarea">
         <button class="buttonAdd" id="buttonAdd"> Agregar </button>
     </div>
-    <ul class="list-items" id="items">
-    </ul>
+    <div>
+        <ul id="listaTask">
+            <h3>Estas son tus tareas pendientes!</h3>
+            <li>
+                <p>Tarea Pendiente</p>
+                <img src="/img/verificado.png" alt="">
+                <img src="/img/boton-editar.png" alt="">
+                <img src="/img/eliminar.png" alt="">
+            </li>
+        </ul>
+    </div>
     <script src="apps.js"></script>
 </body>
 </html>
