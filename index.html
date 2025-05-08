@@ -10,24 +10,30 @@
     <title>Task List Oficial</title>
 </head>
 <body>
-    <div id="infoPerfil">
-        <div id="fecha"></div>
-        <span>VAMOS A CUMPLIR TUS TAREAS!</span>
-    </div>
-    <div class="addTask">
-        <input type="text" class="input" id="input" placeholder="Agrega una Tarea">
-        <button class="buttonAdd" id="buttonAdd"> Agregar </button>
-    </div>
-    <div>
-        <ul id="listaTask">
+    <div class="conteiner">
+        <div id="infoPerfil">
+            <div id="fecha">Miercoles 7 de Mayo</div>
+            <span>VAMOS A CUMPLIR TUS TAREAS!</span>
+        </div>
+    
+        <div class="addTask">
+            <input type="text" id="input" placeholder="Agrega una Tarea">
+            <button  id="buttonAdd"> Agregar </button>
+        </div>
+    
+        <div class="list-Task">
             <h3>Estas son tus tareas pendientes!</h3>
-            <li>
-                <p>Tarea Pendiente</p>
-                <img src="/img/verificado.png" alt="">
-                <img src="/img/boton-editar.png" alt="">
-                <img src="/img/eliminar.png" alt="">
-            </li>
-        </ul>
+            <ul class="list">
+                <li>
+                    <p>Tarea Pendiente</p>
+                    <div class="icons">
+                        <img src="/img/boton-editar.png" alt="">
+                        <img src="/img/verificado.png" alt="">
+                        <img src="/img/eliminar.png" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div> 
     </div>
     <script src="apps.js"></script>
 </body>
