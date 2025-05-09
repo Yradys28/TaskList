@@ -52,6 +52,7 @@ body{
     width: 450px;
     height: 40px;
     background-color: rgb(48, 53, 64);
+    color: white;
     padding-left: 10px;
     margin-right: 10px
     
@@ -101,6 +102,7 @@ input::placeholder{
     background-color: rgb(48, 53, 64);
     padding-left:10px;
     padding-top: 5px;
+    margin: 10px 0;
     border-radius: 12px;
     display:flex;
     justify-content: space-between;
@@ -114,6 +116,7 @@ img{
     margin: 3px;
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }
 
 img:hover{
