@@ -106,6 +106,6 @@ listaDeTareas.addEventListener('click', function(event) {
       }
       taskConfirm++;
     }
-  });
+});
 
 
