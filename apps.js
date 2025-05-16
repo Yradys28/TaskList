@@ -23,6 +23,17 @@ const FECHA = new Date();
 fecha.innerHTML= FECHA.toLocaleDateString("es-VE",{weekday:"long",month:"short", day:"numeric"});
 
 //FUNCION PARA AGREGAR TAREA 
+let nombreUsuario = prompt("Ingresa tu Nombre")
+if(nombreUsuario !== null && nombreUsuario.trim() !== ""){
+    alert("Se ha registrado correctamente " + nombreUsuario);
+} else {
+    alert("Recargue la pagina e ingrese de forma correcta su usuario.");
+}
+const fecha = document.getElementById("fecha")
+const input = document.getElementById("input")
+const buttonAdd = document.getElementById("buttonAdd")
+const taskConfirm = 0;
+
 function agregarTarea (tarea) {
     const task =   `<li>
                     <p>${tarea}</p>
@@ -37,6 +48,7 @@ function agregarTarea (tarea) {
                 }
         
 //EL EVENTO QUE NOS LLAMA A LA FUNCION AGREGAR-TAREA MEDIANTE UN CLICK
+                
 buttonAdd.addEventListener("click", ()=>{
     const tarea = input.value.trim();
     if(tarea !== ""){
@@ -62,6 +74,8 @@ document.addEventListener("keyup", function(event){
 
 //EVENTO QUE NOS ELIMINA CADA TAREA MEDIANTE UN CLICK
 const listaDeTareas = document.getElementById('list'); 
+const listaDeTareas = document.getElementById('list'); 
+
 listaDeTareas.addEventListener('click', function(event) {
   if (event.target.classList.contains('delete-button')) {
     const tareaAEliminar = event.target.parentNode.parentNode;
@@ -88,6 +102,9 @@ listaDeTareas.addEventListener('click', function(event) {
       taskConfirm++;
       tareaContador = taskConfirm;
       contadorConfirmadas(tareaContador);
+        tareaConfirm.style.backgroundColor = "green";
+      }
+      taskConfirm++;
     }
   });
 

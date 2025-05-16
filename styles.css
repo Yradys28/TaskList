@@ -21,6 +21,12 @@ body{
     border: 1px solid white;
     border-radius: 15px;
     width: 40%;
+    background-image: linear-gradient(to bottom, rgb(6, 9, 30), rgb(14, 24, 67));
+}
+
+.conteiner{
+    border: 1px solid white;
+    width: 45%;
     height: 100%;
     margin-left: 400px;
 
@@ -41,6 +47,8 @@ body{
 .usuario{
     font-size: 33px;
     color: rgb(73, 73, 73);
+    color: white;
+    margin-top: 70px;
 }
 
 #infoPerfil #fecha{
@@ -49,6 +57,14 @@ body{
 
 .addTask{
     max-width: 85%;
+}
+
+#infoPerfil span{
+    font-size: 30px;
+}
+
+.addTask{
+    max-width: 90%;
     margin-top: 20px;
 
     display: flex;
@@ -62,6 +78,9 @@ body{
     color: rgb(71, 70, 70);
     font-weight: bold;
     padding-left: 15px;
+    background-color: rgb(48, 53, 64);
+    color: white;
+    padding-left: 10px;
     margin-right: 10px
     
     ;
@@ -74,6 +93,7 @@ body{
 input::placeholder{
     font-size: 15px;
     color: rgb(102, 102, 102);
+    color: rgb(207, 207, 207);
 }
 
 .addTask #buttonAdd{
@@ -81,6 +101,7 @@ input::placeholder{
     width: 100px;
     background-color: rgb(105, 202, 85);
     box-shadow: 2px 2px 5px rgba(121, 121, 121, 0.551);
+    background-color: rgb(218, 71, 71);
     padding-left: 10px;
     padding-right: 10px;
     font-weight: bold;
@@ -98,21 +119,19 @@ input::placeholder{
 
 .list-Task{
     max-width: 90%;
-    width: 85%;
+    width: 87%;
     color: white;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
-.list-Task p{
-    color: rgb(130, 129, 129);
+.list-Task h3{
+    color: white;
     margin-bottom: 15px;
-    margin-top: 10px;
 }
 
 .list-Task .list li{
-    background-color: rgba(43, 43, 43, 0.77);
-    box-shadow: 2px 2px 5px rgba(47, 47, 47, 0.551);
-    padding-left:15px;
+    background-color: rgb(48, 53, 64);
+    padding-left:10px;
     padding-top: 5px;
     margin: 10px 0;
     border-radius: 12px;
@@ -127,6 +146,7 @@ input::placeholder{
 
 img{
     margin: 3px 5px;
+    margin: 3px;
     width: 30px;
     height: 30px;
     cursor: pointer;
