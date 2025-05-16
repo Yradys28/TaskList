@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,700,100,0..1;1,9..144,700,100,0..1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Task List Oficial</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div id="infoPerfil">
+            <div id="fecha"></div>
+        </div>
+    
+        <div class="addTask">
+            <input type="text" id="input" placeholder="Agrega una Tarea">
+            <button  id="buttonAdd"> Agregar </button>
+        </div>
+    
+        <div class="list-Task" id="listaTask">
+            <p>Tareas Pendientes!</p>
+            <ul class="list" id="list">
+            </ul>
+        </div> 
+        <div class="cont-contador">Tareas Confirmadas: <span id="numeroContador">0</span></div>
+    </div>
+    <script src="apps.js"></script>
+</body>
+</html>
