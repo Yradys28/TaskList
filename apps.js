@@ -100,7 +100,6 @@ listaDeTareas.addEventListener('click', function(event) {
         tareaConfirm.style.backgroundColor = "green";
       }
       taskConfirm++;
-    }
-});
+    });
 
 
